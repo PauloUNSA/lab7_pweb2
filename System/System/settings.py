@@ -73,7 +73,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'System.wsgi.application'
 
-
+GRAPH_MODELS ={
+    'all_applications': True,
+    'graph_models': True,
+     }
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
